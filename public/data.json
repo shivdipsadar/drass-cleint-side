@@ -322,7 +322,7 @@
     "items": [
       {
         "id": 1,
-        "visible": false,
+        "visible": true,
         "title": "RESIDENTIAL BUILDING",
         "image": "/images/sectors/residential.jpg",
         "description": "Residential buildings description"
@@ -353,7 +353,7 @@
   "projectsPage": {
     "hero": {
       "visible": true,
-      "title": "Our Projects",
+      "title": "Our Projects ",
       "background": "/images/background/abouthero.building1.4f65b51a.jpg"
     }
   },
