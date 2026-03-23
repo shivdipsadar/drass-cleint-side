@@ -250,7 +250,7 @@
         "id": 6,
         "icon": "Droplet",
         "title": "WATERPROOFING WORKS",
-        "visible": false
+        "visible": true
       }
     ]
   },
