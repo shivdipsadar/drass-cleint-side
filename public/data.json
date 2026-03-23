@@ -33,7 +33,7 @@
     ]
   },
   "hero": {
-    "visible": false,
+    "visible": true,
     "slides": [
       {
         "id": 1,
@@ -62,7 +62,7 @@
     ]
   },
   "about": {
-    "visible": true,
+    "visible": false,
     "items": [
       {
         "welcome": "WELCOME TO",
