@@ -1,15 +1,29 @@
 // src/utils/api.js
 
-// For now (local project)
-export const DATA_URL = "/data.json";
+// 🔥 SWITCH (change to true after admin panel ready)
+const USE_GITHUB = false;
 
-// Image helper
+// 🔥 CHANGE THIS (your repo link)
+const GITHUB_BASE =
+  "https://raw.githubusercontent.com/shivdipsadar/drass-cleint-side/main";
+
+// Data file
+export const DATA_URL = USE_GITHUB
+  ? `${GITHUB_BASE}/data.json`
+  : "/data.json";
+
+// 🔥 IMAGE HELPER
 export const getImageUrl = (path) => {
   if (!path) return "";
 
-  // If already full URL
+  // already full URL
   if (path.startsWith("http")) return path;
 
-  // Otherwise use public folder path
+  // GitHub mode
+  if (USE_GITHUB) {
+    return `${GITHUB_BASE}${path}`;
+  }
+
+  // local mode
   return path;
 };

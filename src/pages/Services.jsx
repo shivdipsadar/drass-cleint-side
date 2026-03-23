@@ -5,8 +5,6 @@ import PageHero from "../components/PageHero";
 import ServiceOverview from "../components/ServiceOverview";
 import Sectors from "../components/Sectors";
 
-import { getImageUrl } from "../utils/api";
-
 const Services = () => {
 
   const { data, loading, error } = useData();
@@ -14,7 +12,7 @@ const Services = () => {
   // 🔄 Loading
   if (loading) {
     return (
-      <div className="h-screen flex items-center justify-center">
+      <div className="h-screen flex items-center justify-center text-xl">
         Loading...
       </div>
     );
@@ -31,35 +29,28 @@ const Services = () => {
 
   if (!data) return null;
 
-  const pageHero = data?.servicesPage?.hero;
-  const sectors = data?.sectors;
-
   return (
     <>
-
-      {/* ✅ HERO (Dynamic) */}
-      {pageHero?.title && (
+      {/* 🔥 HERO (DYNAMIC) */}
+      {data?.servicesPage?.hero?.visible !== false && (
         <PageHero
-          title={pageHero.title}
+          title={data?.servicesPage?.hero?.title || "Our Services"}
           backgroundImage={
-            pageHero.background
-              ? getImageUrl(pageHero.background)
-              : ""
+            data?.servicesPage?.hero?.background ||
+            "/images/background/abouthero.building1.4f65b51a.jpg"
           }
         />
       )}
 
-      {/* ✅ SERVICE OVERVIEW */}
-      {data.serviceOverview?.visible &&
-        data.serviceOverview?.items?.length > 0 && (
-          <ServiceOverview data={data.serviceOverview} />
+      {/* 🔥 SAME COMPONENT (NO UI CHANGE) */}
+      {data?.serviceOverview && (
+        <ServiceOverview data={data.serviceOverview} />
       )}
 
-      {/* ✅ SECTORS */}
-      {sectors?.visible && sectors?.items?.length > 0 && (
-        <Sectors data={sectors} />
+      {/* 🔥 SECTORS */}
+      {data?.sectors && (
+        <Sectors data={data.sectors} />
       )}
-
     </>
   );
 };

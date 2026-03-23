@@ -5,22 +5,17 @@ import ServiceOverview from "../components/ServiceOverview";
 import Sectors from "../components/Sectors";
 import PageHero from "../components/PageHero";
 
-import { getImageUrl } from "../utils/api";
-
 const Projects = () => {
-
   const { data, loading, error } = useData();
 
-  // 🔄 Loading
   if (loading) {
     return (
-      <div className="h-screen flex items-center justify-center">
+      <div className="h-screen flex items-center justify-center text-xl">
         Loading...
       </div>
     );
   }
 
-  // ❌ Error
   if (error) {
     return (
       <div className="h-screen flex items-center justify-center text-red-500">
@@ -31,35 +26,28 @@ const Projects = () => {
 
   if (!data) return null;
 
-  const pageHero = data?.projectsPage?.hero;
-  const sectors = data?.sectors;
-
   return (
     <>
-
-      {/* ✅ HERO (Dynamic) */}
-      {pageHero?.title && (
+      {/* HERO (SAFE) */}
+      {data?.projectsPage?.hero?.visible !== false && (
         <PageHero
-          title={pageHero.title}
+          title={data?.projectsPage?.hero?.title || "Our Projects"}
           backgroundImage={
-            pageHero.background
-              ? getImageUrl(pageHero.background)
-              : ""
+            data?.projectsPage?.hero?.background ||
+            "/images/background/abouthero.building1.jpg"
           }
         />
       )}
 
-      {/* ✅ SERVICE OVERVIEW */}
-      {data.serviceOverview?.visible &&
-        data.serviceOverview?.items?.length > 0 && (
-          <ServiceOverview data={data.serviceOverview} />
+      {/* SERVICE OVERVIEW */}
+      {data?.serviceOverview && (
+        <ServiceOverview data={data.serviceOverview} />
       )}
 
-      {/* ✅ SECTORS */}
-      {sectors?.visible && sectors?.items?.length > 0 && (
-        <Sectors data={sectors} />
+      {/* SECTORS */}
+      {data?.sectors && (
+        <Sectors data={data.sectors} />
       )}
-
     </>
   );
 };

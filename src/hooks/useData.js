@@ -8,19 +8,20 @@ export default function useData() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // ✅ Check cache first
+        // ✅ Load cache
         const cached = localStorage.getItem("site-data");
 
         if (cached) {
           setData(JSON.parse(cached));
-          setLoading(false);
         }
 
-        // ✅ Fetch latest data
-        const res = await fetch(DATA_URL);
+        // 🔥 Always fetch latest (no cache issue)
+        const res = await fetch(`${DATA_URL}?t=${Date.now()}`);
         const freshData = await res.json();
 
         setData(freshData);
+
+        // save cache
         localStorage.setItem("site-data", JSON.stringify(freshData));
 
       } catch (error) {

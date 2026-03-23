@@ -67,33 +67,51 @@
   "items": [
     {
       "id": 1,
+      "visible": true,
       "name": "Client 1",
       "logo": "/images/clients/client-01.9a10d4bc.jpg"
     },
     {
       "id": 2,
+      "visible": true,
       "name": "Client 2",
       "logo": "/images/clients/client-02.30345561.jpg"
     },
     {
       "id": 3,
+      "visible": true,
       "name": "Client 3",
       "logo": "/images/clients/client-03.c24dbcf7.jpg"
     },
     {
       "id": 4,
+      "visible": true,
       "name": "Client 4",
       "logo": "/images/clients/client-04.0b7c6231.jpg"
     },
     {
       "id": 5,
+      "visible": true,
       "name": "Client 5",
       "logo": "/images/clients/client-05.ba8a7b35.jpg"
     },
     {
       "id": 6,
+      "visible": true,
       "name": "Client 6",
       "logo": "/images/clients/client-06.a7101906.jpg"
+    },
+    {
+      "id": 7,
+      "visible": true,
+      "name": "Client 7",
+      "logo": "/images/clients/client-07.98be525d.jpg"
+    },
+    {
+      "id": 8,
+      "visible": true,
+      "name": "Client 8",
+      "logo": "/images/clients/client-08.8b86e021.jpg"
     }
   ]
 },
@@ -298,7 +316,84 @@
       "description": "To establish the trademark quality and reliability of the Group Surya globally by persistently evolving our services with modern technology to precisely serve the needs and goals of our clients."
     }
   ]
+},
+
+"sectors": {
+  "visible": true,
+  "title": "OUR SECTORS",
+  "items": [
+    {
+      "id": 1,
+      "visible": true,
+      "title": "RESIDENTIAL BUILDING",
+      "image": "/images/sectors/residential.jpg",
+      "description": "Residential buildings description"
+    },
+    {
+      "id": 2,
+      "visible": true,
+      "title": "COMMERCIAL BUILDING",
+      "image": "/images/sectors/commercial.jpg",
+      "description": "Commercial buildings description"
+    },
+    {
+      "id": 3,
+      "visible": true,
+      "title": "INSTITUTIONAL BUILDING",
+      "image": "/images/sectors/institutional.jpg",
+      "description": "Institutional buildings description"
+    },
+    {
+      "id": 4,
+      "visible": true,
+      "title": "INDUSTRIAL BUILDING",
+      "image": "/images/sectors/industrial.jpg",
+      "description": "Industrial buildings description"
+    }
+  ]
+},
+
+
+"projectsPage": {
+  "hero": {
+    "visible": true,
+    "title": "Our Projects",
+    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+  }
+},
+
+"clientsPage": {
+  "hero": {
+    "visible": true,
+    "title": "Our Clients",
+    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+  }
+},
+
+"servicesPage": {
+  "hero": {
+    "visible": true,
+    "title": "Our Services",
+    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+  }
+},
+
+"contactPage": {
+  "hero": {
+    "visible": true,
+    "title": "Contact Us",
+    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+  }
+},
+"contact": {
+  "title": "Contact Us",
+  "backgroundImage": "/images/background/abouthero.building1.4f65b51a.jpg",
+  "formTitle": "Send Your Inquiry",
+  "receiverEmail": "info@dras.com",
+  "mapEmbed": "https://maps.google.com/maps?q=nagpur&output=embed"
 }
+
+
 
 
 }

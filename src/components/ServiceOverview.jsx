@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import {
   Settings,
   Home,
@@ -11,39 +10,18 @@ import {
 function ServiceCard({ icon, title }) {
   return (
     <div className="flex flex-col items-center justify-center text-center border border-gray-200 hover:bg-gray-50/80 transition py-14 px-6 min-h-[180px]">
-
-      <div className="text-gray-600 mb-6">
-        {icon}
-      </div>
+      <div className="text-gray-600 mb-6">{icon}</div>
 
       <h3 className="text-sm md:text-base font-semibold tracking-wide text-gray-800">
         {title}
       </h3>
-
     </div>
   );
 }
 
-export default function ServiceOverview() {
+export default function ServiceOverview({ data }) {
 
-  const [section, setSection] = useState(null);
-
-  // 🔥 ICON MAP (DYNAMIC ICON SUPPORT)
-  const iconMap = {
-    Settings: <Settings size={40} />,
-    Home: <Home size={40} />,
-    ClipboardList: <ClipboardList size={40} />,
-    Ruler: <Ruler size={40} />,
-    Building2: <Building2 size={40} />,
-    Droplet: <Droplet size={40} />
-  };
-
-  useEffect(() => {
-    fetch("/data.json")
-      .then(res => res.json())
-      .then(data => setSection(data.serviceOverview))
-      .catch(err => console.error(err));
-  }, []);
+  const section = data;
 
   // ❌ not loaded
   if (!section) return null;
@@ -62,6 +40,16 @@ export default function ServiceOverview() {
     );
   }
 
+  // 🔥 ICON MAP
+  const iconMap = {
+    Settings: <Settings size={40} />,
+    Home: <Home size={40} />,
+    ClipboardList: <ClipboardList size={40} />,
+    Ruler: <Ruler size={40} />,
+    Building2: <Building2 size={40} />,
+    Droplet: <Droplet size={40} />
+  };
+
   return (
     <section
       className="py-24 bg-gray-100 bg-cover bg-center bg-no-repeat"
@@ -74,7 +62,7 @@ export default function ServiceOverview() {
 
       <div className="w-[95vw] max-w-6xl mx-auto text-center">
 
-        {/* TITLE (DYNAMIC) */}
+        {/* TITLE */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
           {section.title || "OUR SERVICE OVERVIEW"}
         </h2>
