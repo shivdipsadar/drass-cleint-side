@@ -33,7 +33,7 @@
     ]
   },
   "hero": {
-    "visible": false,
+    "visible": true,
     "slides": [
       {
         "id": 1,
