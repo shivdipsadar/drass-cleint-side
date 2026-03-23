@@ -80,7 +80,7 @@
     "items": [
       {
         "id": 1,
-        "visible": false,
+        "visible": true,
         "name": "Client 1",
         "logo": "/images/clients/client-01.9a10d4bc.jpg"
       },
