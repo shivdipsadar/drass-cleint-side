@@ -6,394 +6,383 @@
     "tagline": "Building Excellence. Managing Success.",
     "phone": "+91 9552240737",
     "links": [
-      { "name": "Home", "path": "/" },
-      { "name": "About-Us", "path": "/about" },
-      { "name": "Projects", "path": "/projects" },
-      { "name": "Clients", "path": "/clients" },
-      { "name": "Services", "path": "/services" },
-      { "name": "Contact-Us", "path": "/contact" }
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "About-Us",
+        "path": "/about"
+      },
+      {
+        "name": "Projects",
+        "path": "/projects"
+      },
+      {
+        "name": "Clients",
+        "path": "/clients"
+      },
+      {
+        "name": "Services",
+        "path": "/services"
+      },
+      {
+        "name": "Contact-Us",
+        "path": "/contact"
+      }
     ]
   },
-
-  "hero": {
-  "visible": true,
-  "slides": [
-    {
-      "id": 1,
-      "title": "100% TURNKEY PROJECTS",
-      "subtitle": "100% TURNKEY PROJECTS",
-      "image": "/images/slider/slider-01.0025ffb4.jpg",
-      "button": "Our Projects",
-      "link": "projects"
-    },
-    {
-      "id": 2,
-      "title": "PEB STRUCTURES",
-      "subtitle": "PEB STRUCTURE",
-      "image": "/images/slider/slider-02.98196328.jpg",
-      "button": "View Work",
-      "link": "projects"
-    },
-    {
-      "id": 3,
-      "title": "Capacity : 72000 MT/Annum",
-      "subtitle": "CAPACITY : 72000 MT/Annum",
-      "image": "/images/slider/slider-03.fb0762f7.jpg",
-      "button": "Explore More",
-      "link": "about"
-    }
-  ]
-},
-
-
-"about": {
-  "visible": true,
-  "items": [
-    {
-      "welcome": "WELCOME TO",
-      "title": "DRAS",
-      "highlight": "Engineers and Contractors",
-      "paragraph1": "Group DRAS is a renowned name in 100% turnkey project works across India. As one of the only design and build contractors with an in-house PEB manufacturing setup and a dedicated workforce of 450+ professionals.we have established ourselves as a leading PEB, Civil, and MEP contractor in India.",
-      "paragraph2": "Since our inception in 2011, Group DRAS has collectively delivered over 4.5 crore square feet of industrial shelters, spaces, and buildings. Our strategic use of technology, workforce, and work processes has enabled us to complete numerous landmark projects in industrial construction.",
-      "image": "/images/about/about-dras.38b703bd.jpg"
-    }
-  ]
-},
-
-
-"clients": {
-  "visible": true,
-  "title": "Our Clients",
-  "items": [
-    {
-      "id": 1,
-      "visible": true,
-      "name": "Client 1",
-      "logo": "/images/clients/client-01.9a10d4bc.jpg"
-    },
-    {
-      "id": 2,
-      "visible": true,
-      "name": "Client 2",
-      "logo": "/images/clients/client-02.30345561.jpg"
-    },
-    {
-      "id": 3,
-      "visible": true,
-      "name": "Client 3",
-      "logo": "/images/clients/client-03.c24dbcf7.jpg"
-    },
-    {
-      "id": 4,
-      "visible": true,
-      "name": "Client 4",
-      "logo": "/images/clients/client-04.0b7c6231.jpg"
-    },
-    {
-      "id": 5,
-      "visible": true,
-      "name": "Client 5",
-      "logo": "/images/clients/client-05.ba8a7b35.jpg"
-    },
-    {
-      "id": 6,
-      "visible": true,
-      "name": "Client 6",
-      "logo": "/images/clients/client-06.a7101906.jpg"
-    },
-    {
-      "id": 7,
-      "visible": true,
-      "name": "Client 7",
-      "logo": "/images/clients/client-07.98be525d.jpg"
-    },
-    {
-      "id": 8,
-      "visible": true,
-      "name": "Client 8",
-      "logo": "/images/clients/client-08.8b86e021.jpg"
-    }
-  ]
-},
-
-"services": {
-  "visible": true,
-  "title": "OUR KEY SERVICES",
-  "items": [
-    {
-      "id": 1,
-      "icon": "Home",
-      "title": "RESIDENTIAL BUILDING",
-      "description": "Our construction services for residential buildings focus on creating comfortable and functional homes, combining quality craftsmanship with a personalized design to meet the unique needs of homeowners."
-    },
-    {
-      "id": 2,
-      "icon": "Building2",
-      "title": "COMMERCIAL BUILDING",
-      "description": "Our construction services for commercial buildings cater to businesses and organizations, delivering efficient and aesthetically pleasing spaces that promote productivity and leave a lasting impression on clients and customers"
-    },
-    {
-      "id": 3,
-      "icon": "School",
-      "title": "INSTITUTIONAL BUILDING",
-      "description": "We specialize in construction services for institutional buildings such as schools, hospitals, and public facilities, providing safe and welldesigned environments that support the specific needs and activities of these institutions."
-    },
-    {
-      "id": 4,
-      "icon": "Factory",
-      "title": "INDUSTRIAL BUILDING",
-      "description": "Our construction services for industrial buildings encompass the design and construction of structures that facilitate manufacturing, storage, and logistical operations, prioritizing functionality, durability, and compliance with industry regulations."
-    }
-  ]
-},
-
-"projects": {
-  "visible": true,
-  "title": "SOME OF OUR PROMINENT PROJECTS",
-  "items": [
-    {
-      "id": 1,
-      "client": "POWER GRID CORPORATION OF INDIA LIMITED",
-      "cards": [
-        {
-          "id": 1,
-          "image": "/dras-logo.jpeg",
-          "title": "Construction of RCC Drain, Repairing of Existing drain & Sump Pit at Township Area of WR-1 RHQ, Nagpur"
-        },
-        {
-          "id": 2,
-          "image": "/dras-logo.jpeg",
-          "title": "Installation Of False Ceiling & Electrification Work of Sabrang Hall at Powergrid Pocket-A, RHQ, Nagpur"
-        },
-        {
-          "id": 3,
-          "image": "/dras-logo.jpeg",
-          "title": "Renovation Of ED Office, Conference Hall & Staff Room On 1st Floor Of Office Building At RHQ Nagpur"
-        },
-        {
-          "id": 4,
-          "image": "/dras-logo.jpeg",
-          "title": "Dismantling of existing workstation and floor tiles for installation of new workstation at POWERGRID, Nagpur"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "client": "MAHARASHTRA STATE ELECTRICITY BOARD",
-      "cards": [
-        {
-          "id": 1,
-          "image": "/dras-logo.jpeg",
-          "title": "Construction work for electrical control center"
-        },
-        {
-          "id": 2,
-          "image": "/dras-logo.jpeg",
-          "title": "Installation of infrastructure facilities"
-        },
-        {
-          "id": 3,
-          "image": "/dras-logo.jpeg",
-          "title": "Office renovation and interior work"
-        }
-      ]
-    }
-  ]
-},
-
-"serviceOverview": {
-  "visible": true,
-  "title": "OUR SERVICE OVERVIEW",
-  "background": "/images/background/background-06.16a3353e.jpg",
-  "items": [
-    {
-      "id": 1,
-      "icon": "Settings",
-      "title": "TURNKEY PROJECT WORKS",
-      "visible": true
-    },
-    {
-      "id": 2,
-      "icon": "Home",
-      "title": "RENOVATION WORKS",
-      "visible": true
-    },
-    {
-      "id": 3,
-      "icon": "ClipboardList",
-      "title": "PROJECT MANAGEMENT",
-      "visible": true
-    },
-    {
-      "id": 4,
-      "icon": "Ruler",
-      "title": "PLANNING AND DESIGNING",
-      "visible": true
-    },
-    {
-      "id": 5,
-      "icon": "Building2",
-      "title": "INTERIOR AND EXTERIOR WORKS",
-      "visible": true
-    },
-    {
-      "id": 6,
-      "icon": "Droplet",
-      "title": "WATERPROOFING WORKS",
-      "visible": true
-    }
-  ]
-},
-
-"footer": {
-  "background": "/images/background/footer-pattern.png",
-  "companyName": "DRAS Engineers and Contractors",
-  "description": "DRAS Engineers and Contractors delivers expertly planned, efficiently executed construction solutions—combining quality workmanship, structural strength, and timely delivery across all types of building projects.",
-
-  "phones": [
-    "+91 9552240737",
-    "+91 9160460202"
-  ],
-
-  "servicePhone": "+91 9552240737",
-
-  "address": "HOUSE 395, PANDHURNA ROAD, GURHARIKAR LAYOUT, CHICHIPURA, SAONER 441107, DIST- NAGPUR, ST- MAHARASHTRA",
-
-  "links": [
-    "About Us",
-    "Our Services",
-    "Our Product",
-    "Project",
-    "Contact US"
-  ],
-
-  "copyright": "Copyright © 2025 | All rights reserved",
-  "brand": "DRAS",
-  "designer": "Blueclan Technologies Pvt Ltd"
-},
-
-"aboutPage": {
   "hero": {
     "visible": true,
-    "title": "About Us",
-    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
-  }
-},
-
-
-
-"visionary": {
-  "visible": true,
-  "title": "OUR",
-  "highlight": "VISIONARY",
-  "paragraphs": [
-    "Mr. Yogesh Wake founded Group Surya PEB & Constructions in 2011, marking the beginning of his entrepreneurial journey.",
-    "A B.E. Mechanical Engineer, Mr. Wake initially gained valuable experience as a Purchase Manager, overseeing new product development, vendor relationships, and sourcing activities. Recognizing the industry’s shortcomings, he established Group Surya to provide world-class PEB solutions and advanced MEP services to both domestic and international clients.",
-    "Leveraging a skilled workforce, cutting-edge technologies, and strategic planning, Mr. Wake has successfully expanded his business interests into various sectors, including civil construction, real estate, and travel. His other ventures include GS PEB and Civil Works Pvt. Ltd., Group Surya – Heavy Metal Division, Yashasvi Realtors LLP, SureDrive Pvt. Ltd., and Sunmech Industries.",
-    "Under Mr. Wake’s visionary leadership, Group Surya now employs over 450 professionals across India. He has been honored with prestigious awards such as the Sakal Excellence Award, the Melvin Jones Fellowship Award from Lions International Foundation, and the Green World Young Entrepreneurship Award."
-  ]
-},
-
-"values": {
-  "visible": true,
-  "items": [
-    {
-      "id": 1,
-      "icon": "Eye",
-      "title": "Vision",
-      "description": "To create the perfect amalgamation of skilled workforces, latest technologies, and streamlined processes through our organization to ensure quality, reliability, and reality in our installation process worldwide."
-    },
-    {
-      "id": 2,
-      "icon": "Flag",
-      "title": "Mission",
-      "description": "To deliver state-of-the-art turnkey projects in PEB structures, Civil Designs, and MEP Installations to ensure world-class establishments across sectors and strive to carve a niche for our work ethics and values."
-    },
-    {
-      "id": 3,
-      "icon": "Target",
-      "title": "Goal",
-      "description": "To establish the trademark quality and reliability of the Group Surya globally by persistently evolving our services with modern technology to precisely serve the needs and goals of our clients."
-    }
-  ]
-},
-
-"sectors": {
-  "visible": true,
-  "title": "OUR SECTORS",
-  "items": [
-    {
-      "id": 1,
-      "visible": true,
-      "title": "RESIDENTIAL BUILDING",
-      "image": "/images/sectors/residential.jpg",
-      "description": "Residential buildings description"
-    },
-    {
-      "id": 2,
-      "visible": true,
-      "title": "COMMERCIAL BUILDING",
-      "image": "/images/sectors/commercial.jpg",
-      "description": "Commercial buildings description"
-    },
-    {
-      "id": 3,
-      "visible": true,
-      "title": "INSTITUTIONAL BUILDING",
-      "image": "/images/sectors/institutional.jpg",
-      "description": "Institutional buildings description"
-    },
-    {
-      "id": 4,
-      "visible": true,
-      "title": "INDUSTRIAL BUILDING",
-      "image": "/images/sectors/industrial.jpg",
-      "description": "Industrial buildings description"
-    }
-  ]
-},
-
-
-"projectsPage": {
-  "hero": {
+    "slides": [
+      {
+        "id": 1,
+        "title": "100% TURNKEY PROJECTS aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "subtitle": "100% TURNKEY PROJECTS",
+        "image": "/images/slider/slider-01.0025ffb4.jpg",
+        "button": "Our Projects",
+        "link": "projects"
+      },
+      {
+        "id": 2,
+        "title": "PEB STRUCTURES",
+        "subtitle": "PEB STRUCTURE",
+        "image": "/images/slider/slider-02.98196328.jpg",
+        "button": "View Work",
+        "link": "projects"
+      },
+      {
+        "id": 3,
+        "title": "Capacity : 72000 MT/Annum",
+        "subtitle": "CAPACITY : 72000 MT/Annum",
+        "image": "/images/slider/slider-03.fb0762f7.jpg",
+        "button": "Explore More",
+        "link": "about"
+      }
+    ]
+  },
+  "about": {
     "visible": true,
-    "title": "Our Projects",
-    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
-  }
-},
-
-"clientsPage": {
-  "hero": {
+    "items": [
+      {
+        "welcome": "WELCOME TO",
+        "title": "DRAS",
+        "highlight": "Engineers and Contractors",
+        "paragraph1": "Group DRAS is a renowned name in 100% turnkey project works across India. As one of the only design and build contractors with an in-house PEB manufacturing setup and a dedicated workforce of 450+ professionals.we have established ourselves as a leading PEB, Civil, and MEP contractor in India.",
+        "paragraph2": "Since our inception in 2011, Group DRAS has collectively delivered over 4.5 crore square feet of industrial shelters, spaces, and buildings. Our strategic use of technology, workforce, and work processes has enabled us to complete numerous landmark projects in industrial construction.",
+        "image": "/images/about/about-dras.38b703bd.jpg"
+      }
+    ]
+  },
+  "clients": {
     "visible": true,
     "title": "Our Clients",
-    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
-  }
-},
-
-"servicesPage": {
-  "hero": {
+    "items": [
+      {
+        "id": 1,
+        "visible": true,
+        "name": "Client 1",
+        "logo": "/images/clients/client-01.9a10d4bc.jpg"
+      },
+      {
+        "id": 2,
+        "visible": true,
+        "name": "Client 2",
+        "logo": "/images/clients/client-02.30345561.jpg"
+      },
+      {
+        "id": 3,
+        "visible": true,
+        "name": "Client 3",
+        "logo": "/images/clients/client-03.c24dbcf7.jpg"
+      },
+      {
+        "id": 4,
+        "visible": true,
+        "name": "Client 4",
+        "logo": "/images/clients/client-04.0b7c6231.jpg"
+      },
+      {
+        "id": 5,
+        "visible": true,
+        "name": "Client 5",
+        "logo": "/images/clients/client-05.ba8a7b35.jpg"
+      },
+      {
+        "id": 6,
+        "visible": true,
+        "name": "Client 6",
+        "logo": "/images/clients/client-06.a7101906.jpg"
+      },
+      {
+        "id": 7,
+        "visible": true,
+        "name": "Client 7",
+        "logo": "/images/clients/client-07.98be525d.jpg"
+      },
+      {
+        "id": 8,
+        "visible": true,
+        "name": "Client 8",
+        "logo": "/images/clients/client-08.8b86e021.jpg"
+      }
+    ]
+  },
+  "services": {
     "visible": true,
-    "title": "Our Services",
-    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
-  }
-},
-
-"contactPage": {
-  "hero": {
+    "title": "OUR KEY SERVICES",
+    "items": [
+      {
+        "id": 1,
+        "icon": "Home",
+        "title": "RESIDENTIAL BUILDING",
+        "description": "Our construction services for residential buildings focus on creating comfortable and functional homes, combining quality craftsmanship with a personalized design to meet the unique needs of homeowners."
+      },
+      {
+        "id": 2,
+        "icon": "Building2",
+        "title": "COMMERCIAL BUILDING",
+        "description": "Our construction services for commercial buildings cater to businesses and organizations, delivering efficient and aesthetically pleasing spaces that promote productivity and leave a lasting impression on clients and customers"
+      },
+      {
+        "id": 3,
+        "icon": "School",
+        "title": "INSTITUTIONAL BUILDING",
+        "description": "We specialize in construction services for institutional buildings such as schools, hospitals, and public facilities, providing safe and welldesigned environments that support the specific needs and activities of these institutions."
+      },
+      {
+        "id": 4,
+        "icon": "Factory",
+        "title": "INDUSTRIAL BUILDING",
+        "description": "Our construction services for industrial buildings encompass the design and construction of structures that facilitate manufacturing, storage, and logistical operations, prioritizing functionality, durability, and compliance with industry regulations."
+      }
+    ]
+  },
+  "projects": {
     "visible": true,
+    "title": "SOME OF OUR PROMINENT PROJECTS",
+    "items": [
+      {
+        "id": 1,
+        "client": "POWER GRID CORPORATION OF INDIA LIMITED",
+        "cards": [
+          {
+            "id": 1,
+            "image": "/dras-logo.jpeg",
+            "title": "Construction of RCC Drain, Repairing of Existing drain & Sump Pit at Township Area of WR-1 RHQ, Nagpur"
+          },
+          {
+            "id": 2,
+            "image": "/dras-logo.jpeg",
+            "title": "Installation Of False Ceiling & Electrification Work of Sabrang Hall at Powergrid Pocket-A, RHQ, Nagpur"
+          },
+          {
+            "id": 3,
+            "image": "/dras-logo.jpeg",
+            "title": "Renovation Of ED Office, Conference Hall & Staff Room On 1st Floor Of Office Building At RHQ Nagpur"
+          },
+          {
+            "id": 4,
+            "image": "/dras-logo.jpeg",
+            "title": "Dismantling of existing workstation and floor tiles for installation of new workstation at POWERGRID, Nagpur"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "client": "MAHARASHTRA STATE ELECTRICITY BOARD",
+        "cards": [
+          {
+            "id": 1,
+            "image": "/dras-logo.jpeg",
+            "title": "Construction work for electrical control center"
+          },
+          {
+            "id": 2,
+            "image": "/dras-logo.jpeg",
+            "title": "Installation of infrastructure facilities"
+          },
+          {
+            "id": 3,
+            "image": "/dras-logo.jpeg",
+            "title": "Office renovation and interior work"
+          }
+        ]
+      }
+    ]
+  },
+  "serviceOverview": {
+    "visible": true,
+    "title": "OUR SERVICE OVERVIEW",
+    "background": "/images/background/background-06.16a3353e.jpg",
+    "items": [
+      {
+        "id": 1,
+        "icon": "Settings",
+        "title": "TURNKEY PROJECT WORKS",
+        "visible": true
+      },
+      {
+        "id": 2,
+        "icon": "Home",
+        "title": "RENOVATION WORKS",
+        "visible": true
+      },
+      {
+        "id": 3,
+        "icon": "ClipboardList",
+        "title": "PROJECT MANAGEMENT",
+        "visible": true
+      },
+      {
+        "id": 4,
+        "icon": "Ruler",
+        "title": "PLANNING AND DESIGNING",
+        "visible": true
+      },
+      {
+        "id": 5,
+        "icon": "Building2",
+        "title": "INTERIOR AND EXTERIOR WORKS",
+        "visible": true
+      },
+      {
+        "id": 6,
+        "icon": "Droplet",
+        "title": "WATERPROOFING WORKS",
+        "visible": true
+      }
+    ]
+  },
+  "footer": {
+    "background": "/images/background/footer-pattern.png",
+    "companyName": "DRAS Engineers and Contractors",
+    "description": "DRAS Engineers and Contractors delivers expertly planned, efficiently executed construction solutions—combining quality workmanship, structural strength, and timely delivery across all types of building projects.",
+    "phones": [
+      "+91 9552240737",
+      "+91 9160460202"
+    ],
+    "servicePhone": "+91 9552240737",
+    "address": "HOUSE 395, PANDHURNA ROAD, GURHARIKAR LAYOUT, CHICHIPURA, SAONER 441107, DIST- NAGPUR, ST- MAHARASHTRA",
+    "links": [
+      "About Us",
+      "Our Services",
+      "Our Product",
+      "Project",
+      "Contact US"
+    ],
+    "copyright": "Copyright © 2025 | All rights reserved",
+    "brand": "DRAS",
+    "designer": "Blueclan Technologies Pvt Ltd"
+  },
+  "aboutPage": {
+    "hero": {
+      "visible": true,
+      "title": "About Us",
+      "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+    }
+  },
+  "visionary": {
+    "visible": true,
+    "title": "OUR",
+    "highlight": "VISIONARY",
+    "paragraphs": [
+      "Mr. Yogesh Wake founded Group Surya PEB & Constructions in 2011, marking the beginning of his entrepreneurial journey.",
+      "A B.E. Mechanical Engineer, Mr. Wake initially gained valuable experience as a Purchase Manager, overseeing new product development, vendor relationships, and sourcing activities. Recognizing the industry’s shortcomings, he established Group Surya to provide world-class PEB solutions and advanced MEP services to both domestic and international clients.",
+      "Leveraging a skilled workforce, cutting-edge technologies, and strategic planning, Mr. Wake has successfully expanded his business interests into various sectors, including civil construction, real estate, and travel. His other ventures include GS PEB and Civil Works Pvt. Ltd., Group Surya – Heavy Metal Division, Yashasvi Realtors LLP, SureDrive Pvt. Ltd., and Sunmech Industries.",
+      "Under Mr. Wake’s visionary leadership, Group Surya now employs over 450 professionals across India. He has been honored with prestigious awards such as the Sakal Excellence Award, the Melvin Jones Fellowship Award from Lions International Foundation, and the Green World Young Entrepreneurship Award."
+    ]
+  },
+  "values": {
+    "visible": true,
+    "items": [
+      {
+        "id": 1,
+        "icon": "Eye",
+        "title": "Vision",
+        "description": "To create the perfect amalgamation of skilled workforces, latest technologies, and streamlined processes through our organization to ensure quality, reliability, and reality in our installation process worldwide."
+      },
+      {
+        "id": 2,
+        "icon": "Flag",
+        "title": "Mission",
+        "description": "To deliver state-of-the-art turnkey projects in PEB structures, Civil Designs, and MEP Installations to ensure world-class establishments across sectors and strive to carve a niche for our work ethics and values."
+      },
+      {
+        "id": 3,
+        "icon": "Target",
+        "title": "Goal",
+        "description": "To establish the trademark quality and reliability of the Group Surya globally by persistently evolving our services with modern technology to precisely serve the needs and goals of our clients."
+      }
+    ]
+  },
+  "sectors": {
+    "visible": true,
+    "title": "OUR SECTORS",
+    "items": [
+      {
+        "id": 1,
+        "visible": true,
+        "title": "RESIDENTIAL BUILDING",
+        "image": "/images/sectors/residential.jpg",
+        "description": "Residential buildings description"
+      },
+      {
+        "id": 2,
+        "visible": true,
+        "title": "COMMERCIAL BUILDING",
+        "image": "/images/sectors/commercial.jpg",
+        "description": "Commercial buildings description"
+      },
+      {
+        "id": 3,
+        "visible": true,
+        "title": "INSTITUTIONAL BUILDING",
+        "image": "/images/sectors/institutional.jpg",
+        "description": "Institutional buildings description"
+      },
+      {
+        "id": 4,
+        "visible": true,
+        "title": "INDUSTRIAL BUILDING",
+        "image": "/images/sectors/industrial.jpg",
+        "description": "Industrial buildings description"
+      }
+    ]
+  },
+  "projectsPage": {
+    "hero": {
+      "visible": true,
+      "title": "Our Projects",
+      "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+    }
+  },
+  "clientsPage": {
+    "hero": {
+      "visible": true,
+      "title": "Our Clients",
+      "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "visible": true,
+      "title": "Our Services",
+      "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "visible": true,
+      "title": "Contact Us",
+      "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+    }
+  },
+  "contact": {
     "title": "Contact Us",
-    "background": "/images/background/abouthero.building1.4f65b51a.jpg"
+    "backgroundImage": "/images/background/abouthero.building1.4f65b51a.jpg",
+    "formTitle": "Send Your Inquiry",
+    "receiverEmail": "info@dras.com",
+    "mapEmbed": "https://maps.google.com/maps?q=nagpur&output=embed"
   }
-},
-"contact": {
-  "title": "Contact Us",
-  "backgroundImage": "/images/background/abouthero.building1.4f65b51a.jpg",
-  "formTitle": "Send Your Inquiry",
-  "receiverEmail": "info@dras.com",
-  "mapEmbed": "https://maps.google.com/maps?q=nagpur&output=embed"
-}
-
-
-
-
 }
