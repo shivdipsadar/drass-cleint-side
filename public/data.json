@@ -271,7 +271,6 @@
     ]
   },
   "footer": {
-    "background": "/images/background/footer-pattern.png",
     "companyName": "DRAS Engineers and Contractors",
     "description": "DRAS Engineers and Contractors delivers expertly planned, efficiently executed construction solutions—combining quality workmanship, structural strength, and timely delivery across all types of building projects.",
     "phones": [
@@ -279,7 +278,7 @@
       "+91 9160460202"
     ],
     "servicePhone": "+91 9552240737",
-    "address": "HOUSE 395, PANDHURNA ROAD, GURHARIKAR LAYOUT, CHICHIPURA, SAONER 441107, DIST- NAGPUR, ST- MAHARASHTRA",
+    "address": "HOUSE 395, PANDHURNA ROAD, GURHARIKAR LAYOUT, CHICHIPURA, SAONER 441107, DIST- NAGPUR, ST- MAHARASHTRA india",
     "links": [
       "About Us",
       "Our Services",
@@ -289,7 +288,8 @@
     ],
     "copyright": "Copyright © 2025 | All rights reserved",
     "brand": "DRAS",
-    "designer": "Blueclan Technologies Pvt Ltd"
+    "designer": "Blueclan Technologies Pvt Ltd",
+    "background": "/images/background/footer-pattern.png"
   },
   "aboutPage": {
     "hero": {
