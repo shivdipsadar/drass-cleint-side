@@ -322,7 +322,7 @@
     "items": [
       {
         "id": 1,
-        "visible": true,
+        "visible": false,
         "title": "RESIDENTIAL BUILDING",
         "image": "/images/sectors/residential.jpg",
         "description": "Residential buildings description"
