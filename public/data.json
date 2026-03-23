@@ -62,7 +62,7 @@
     ]
   },
   "about": {
-    "visible": false,
+    "visible": true,
     "items": [
       {
         "welcome": "WELCOME TO",
