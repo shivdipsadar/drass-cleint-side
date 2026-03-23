@@ -58,14 +58,6 @@
         "image": "/images/slider/slider-03.fb0762f7.jpg",
         "button": "Explore More",
         "link": "about"
-      },
-      {
-        "id": 1774257271748,
-        "title": "tejas",
-        "subtitle": "demo ",
-        "image": "/images/1774257351724-image_2.jpg",
-        "button": "add more",
-        "link": "...................."
       }
     ]
   },
@@ -88,7 +80,7 @@
     "items": [
       {
         "id": 1,
-        "visible": true,
+        "visible": false,
         "name": "Client 1",
         "logo": "/images/clients/client-01.9a10d4bc.jpg"
       },
@@ -106,7 +98,7 @@
       },
       {
         "id": 4,
-        "visible": false,
+        "visible": true,
         "name": "Client 4",
         "logo": "/images/clients/client-04.0b7c6231.jpg"
       },
