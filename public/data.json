@@ -106,7 +106,7 @@
       },
       {
         "id": 4,
-        "visible": true,
+        "visible": false,
         "name": "Client 4",
         "logo": "/images/clients/client-04.0b7c6231.jpg"
       },
@@ -258,7 +258,7 @@
         "id": 6,
         "icon": "Droplet",
         "title": "WATERPROOFING WORKS",
-        "visible": true
+        "visible": false
       }
     ]
   },
