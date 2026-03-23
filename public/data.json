@@ -283,7 +283,7 @@
     }
   },
   "visionary": {
-    "visible": false,
+    "visible": true,
     "title": "OUR",
     "highlight": "VISIONARY",
     "paragraphs": [
